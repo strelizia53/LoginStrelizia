@@ -1,0 +1,183 @@
+/* Codes by Strelizia53 */
+/* https://www.youtube.com/@Strelizia53 */
+
+/* Import for the custom font from google fonts */
+/* https://fonts.google.com/specimen/Jersey+20 */
+@import url("https://fonts.googleapis.com/css2?family=Jersey+20&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Universal styling through out the entire website */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jersey 20", sans-serif;
+  font-style: normal;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: #222831;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+.nav {
+  text-align: center;
+  width: 100%;
+  color: #eeeeee;
+}
+
+.nav h1 {
+  font-weight: 200;
+  font-size: 3em;
+}
+
+/* Heading and subheading styling */
+.header {
+  color: #eeeeee;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 5em;
+  text-transform: capitalize;
+}
+
+.header h2 {
+  color: #76abae;
+  font-size: 4em;
+}
+
+/* input and socials container styling */
+.bottomHalf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.mainContent {
+  margin: auto;
+  padding: 100px;
+}
+
+/* Login input fields styling */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.inputs input {
+  padding: 10px;
+  color: #76abae;
+  background: #31363f;
+  font-size: 2em;
+  border: transparent;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.inputs a {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    #76abae,
+    #638c96,
+    #526d7a,
+    #42515d,
+    #31363f
+  );
+  border: 1px solid transparent;
+  font-size: 2em;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.inputs a:hover {
+  border: 1px solid white;
+}
+
+.inputs a img {
+  width: 40px;
+  padding-left: 10px;
+}
+
+/* input and social media divider styling */
+.divider {
+  color: #eeeeee;
+}
+
+/* Social media buttons styling */
+.socials {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.socials a {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  color: #eeeeee;
+  text-decoration: none;
+  border: 1px solid #76abae;
+  padding: 10px;
+  font-size: 2em;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.socials a:hover {
+  background-color: #31363f;
+}
+
+.socials a img {
+  width: 40px;
+  padding-right: 10px;
+}
+
+/* forgot password styling */
+.forgotPassword {
+  text-align: center;
+  color: #eeeeee;
+  font-size: 1.5em;
+}
+
+.forgotPassword a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.forgotPassword a:hover {
+  color: #76abae;
+}
+
+/* Media query for making the website responive for mobile devices */
+@media only screen and (max-width: 1024px) {
+  .header h1 {
+    font-size: 3em;
+  }
+
+  .header h2 {
+    font-size: 2em;
+  }
+
+  .bottomHalf {
+    flex-direction: column;
+  }
+
+  .socials a {
+    width: 300px;
+    font-size: 1.7em;
+  }
+
+  * {
+    margin-top: 10px;
+  }
+}
