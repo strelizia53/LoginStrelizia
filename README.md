@@ -5,3 +5,10 @@
 <img src="https://skillicons.dev/icons?i=html,css" alt="Languages" />
 
 <h2>Screenshots</h2>
+
+<h3>Desktop:</h3>
+<img src="screenshots/desktop.png">
+<h3>Mobile:</h3>
+<p align="center">
+  <img src="screenshots/mobile.png">
+</p>
